@@ -391,6 +391,7 @@ bool CMenu::init(bool usb_mounted)
 	}
 	
 	/* Set wiiflow language */
+#ifdef MULTI_LANGUAGE_SUPPORT
 	const char *defLang = "Default";
 	switch (CONF_GetLanguage())
 	{
@@ -429,6 +430,9 @@ bool CMenu::init(bool usb_mounted)
 		defLang = "brazilian";
 
 	m_curLanguage = m_cfg.getString("GENERAL", "language", defLang);
+#else
+	m_curLanguage = "chinese_s";
+#endif
 	if(!m_loc.load(fmt("%s/%s.ini", m_languagesDir.c_str(), m_curLanguage.c_str())))
 	{
 		m_curLanguage = "Default";
