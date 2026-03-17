@@ -40,8 +40,8 @@ void ListGenerator::Init(const char *settingsDir, const char *Language,
 {
 	if(settingsDir != NULL)
 	{
-		gameTDB_Path = fmt("%s/wiitdb.xml", settingsDir);
-		CustomTitlesPath = fmt("%s/" CTITLES_FILENAME, settingsDir);
+		gameTDB_Path = fmt("%s/wiitdb.xml", settingsDir.c_str());
+		CustomTitlesPath = fmt("%s/" CTITLES_FILENAME, settingsDir.c_str());
 	}
 	if(Language != NULL) gameTDB_Language = Language;
 	if(plgnsDataDir != NULL) pluginsDataDir = fmt("%s", plgnsDataDir);

@@ -54,7 +54,6 @@ jobs:
           # cp -r wii/wiiflow/Languages wiiflow/languages
           mkdir -p wiiflow/languages
           cp wii/wiiflow/Languages/chinese_s.ini wiiflow/languages/
-          cp wii/wiiflow/Languages/english.ini wiiflow/languages/
           cp -r wii/wiiflow/themes_lite wiiflow/themes_lite
           echo "sha=$(git rev-parse --short=7 HEAD)" >> $GITHUB_ENV
 
