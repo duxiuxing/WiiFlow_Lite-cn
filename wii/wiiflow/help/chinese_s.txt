@@ -1,7 +1,7 @@
 控制：
-- 主界面 (coverflow)：
--- 上 / 下  = 上一个游戏 / 下一个游戏 (单手竖握)
--- 左 / 右  =  上一个游戏 / 下一个游戏 (双手横握)
+- 主界面 (coverflow 界面)：
+-- 上 / 下  = 上一个游戏 / 下一个游戏 (竖握)
+-- 左 / 右  =  上一个游戏 / 下一个游戏 (横握)
 -- -号键 / +号键  =  快速跳过游戏
 -- Home  =  打开主菜单 / 退出 WiiFlow
 -- Home (sourceflow/menu)  =  Open source menu config
@@ -25,19 +25,19 @@
 -- A on Home Icon  =  Open Home Menu / Exit WiiFlow
 -- A on Disc Icon (Game Disc in Drive)  =  Launch game disc
 
-- Game:
--- A on box  =  Flip Cover
--- A out of screen  =  Launch game
--- A on Star Icon  =  Toggle Favorite (Yellow = Favorite)
+- 游戏界面:
+-- 在封面上按A键  =  翻转看封底
+-- 在屏幕外按A键  =  启动游戏
+-- 在星星图标上按A键  =  收藏或取消收藏 (黄色星星表示已经收藏)
 -- A on Categories Icon  =  Set Categories for current game
 -- A on Hand Icon  =  Parental Lock (Red = locked)
 -- A on Gear Icon  =  Game Settings
 -- A on X Icon  =   Delete Game
--- B  =  Back to coverflow
--- Up / Down  =  Previous / next game (vertical)
--- Left / Right  =  Previous / next game (horizontal)
--- Minus  =  Play game video if available
--- Plus  =  Game Info
+-- B键  =  返回 coverflow 界面
+-- 上 / 下  =  上一个游戏 / 下一个游戏 (竖握)
+-- 左 / 右  =  上一个游戏 / 下一个游戏 (横握)
+-- -号键  =  播放游戏视频 (如果有的话)
+-- +号键  =  游戏信息
 ---Right (in Game Info)  =  Game Description
 ---Left  (in Game Desc)  =  Game Info
 
@@ -47,7 +47,7 @@
 -- Plus  =  Zoom in
 -- Minus  =  Zoom out
  
-- All Settings menus:
+- 所有设置菜单界面:
 -- Minus / Plus  =  Previous / next page
 -- Left / Right  =  Previous / next page
 -- Up / Down  =  Previous / next button
