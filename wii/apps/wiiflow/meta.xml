@@ -18,11 +18,12 @@
 It displays your games in a coverflow with 3D full box covers.
     
 Key features:
-    * Use of Simplified Chinese as the UI language
-    * Emulated NAND support
-    * Plugin system for emu apps
-    * Devolution support
-    * Nintendont support
-    * Neek2o support</long_description>
+- Use of Simplified Chinese as the UI language
+- Emulated NAND support
+- Plugin system for emu apps
+- Devolution support
+- Nintendont support
+- Neek2o support</long_description>
 		<no_ios_reload/>
+		<ahb_access/>
 	</app>
