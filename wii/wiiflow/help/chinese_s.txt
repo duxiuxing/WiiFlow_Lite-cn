@@ -1,0 +1,59 @@
+控制：
+- 主界面 (coverflow 界面)：
+-- 上 / 下  = 上一个游戏 / 下一个游戏 (竖握)
+-- 左 / 右  =  上一个游戏 / 下一个游戏 (横握)
+-- -号键 / +号键  =  快速跳过游戏
+-- Home  =  打开主菜单 / 退出 WiiFlow
+-- Home (sourceflow/menu)  =  Open source menu config
+-- Home (homebrew flow)  =  Open homebrew flow config
+-- 1号键 / 2号键  =  上一种 / 下一种 coverflow 布局
+-- A键  =  选择游戏
+-- B键  =  打开源菜单 (如已安装)
+-- 按住B键不放，再按A键  =  立即启动游戏
+-- 按住B键不放，再按左 / 右  =  更改歌曲
+-- 按住B键不放，再按上 / 下  =  排序依据的上一个 / 下一个游戏 (默认依据音序)
+-- 按住B键不放，再按-号键  =  随机启动一个游戏
+-- 按住B键不放，再按+号键  =  切换排序依据
+-- Z键 / ZR键  =  截屏
+
+-- A on Onscreen Arrows  =  Fast skip through games
+-- B on Onscreen Arrows  =  previous / next game in sorted list (alpha default)
+-- A on Star Icon  =  Favorites
+-- A on Categories Icon  =  Select categories to use
+-- A on Gear Icon  =  Main settings menu
+-- A on USB(Wii), GC, Channels, Plugin, or Homebrew Icon  =  Switch to that source
+-- A on Home Icon  =  Open Home Menu / Exit WiiFlow
+-- A on Disc Icon (Game Disc in Drive)  =  Launch game disc
+
+- 游戏界面:
+-- 在封面上按A键  =  翻转看封底
+-- 在屏幕外按A键  =  启动游戏
+-- 在星星图标上按A键  =  收藏或取消收藏 (黄色星星表示已经收藏)
+-- A on Categories Icon  =  Set Categories for current game
+-- A on Hand Icon  =  Parental Lock (Red = locked)
+-- A on Gear Icon  =  Game Settings
+-- A on X Icon  =   Delete Game
+-- B键  =  返回 coverflow 界面
+-- 上 / 下  =  上一个游戏 / 下一个游戏 (竖握)
+-- 左 / 右  =  上一个游戏 / 下一个游戏 (横握)
+-- -号键  =  播放游戏视频 (如果有的话)
+-- +号键  =  游戏信息
+---Right (in Game Info)  =  Game Description
+---Left  (in Game Desc)  =  Game Info
+
+- Flipped Cover:
+-- B  =  Reset cover
+-- Up / Down / Left / Right  =  Move cover
+-- Plus  =  Zoom in
+-- Minus  =  Zoom out
+ 
+- 所有设置菜单界面:
+-- Minus / Plus  =  Previous / next page
+-- Left / Right  =  Previous / next page
+-- Up / Down  =  Previous / next button
+
+- Coverflow Adjust settings:
+-- B+Minus / B+Plus  =  Previous / next page
+-- B  =  Faster adjustment (B+A instead of just A to click a button)
+-- B+1  =  Copy whole coverflow
+-- B+2  =  Paste coverflow
