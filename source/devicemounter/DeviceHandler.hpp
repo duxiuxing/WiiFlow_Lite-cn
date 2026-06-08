@@ -51,7 +51,7 @@ enum
 const char DeviceName[MAXDEVICES][8] =
 {
 	"sd",
-	"usb",
+	"usb1",
 	"usb2",
 	"usb3",
 	"usb4",
