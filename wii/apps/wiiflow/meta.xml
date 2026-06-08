@@ -2,8 +2,8 @@
 	<app version="1">
 		<name>WiiFlow WFL</name>
 		<coder>Fledge68 &amp; R-Sam</coder>
-		<version>5.6.1.cn</version>
-		<release_date>2026-03-08 00:00</release_date>
+		<version>5.6.2.cn</version>
+		<release_date>20260608</release_date>
 		<!--   // remove this line to enable arguments
 		<arguments>
 			<arg>ios=249</arg>
